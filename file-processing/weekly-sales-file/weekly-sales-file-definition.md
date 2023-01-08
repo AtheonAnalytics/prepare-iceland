@@ -1,3 +1,9 @@
-# Weekly Sales File Definitions
+# Weekly Sales File Definition
+
+## Data Grain
+
+One record for every **product**, **supplier**, **week**.
+
+## Column Definitions
 
 <table><thead><tr><th>Column</th><th data-type="select">Data Type</th><th>Definition</th><th>Example</th></tr></thead><tbody><tr><td>Category</td><td></td><td></td><td>SAPI</td></tr><tr><td>Category Description</td><td></td><td></td><td>SAUCES &#x26; PICKLE</td></tr><tr><td>Sub Category</td><td></td><td></td><td>23B</td></tr><tr><td>Sub Category Description</td><td></td><td></td><td>JAMS &#x26; SPREADS</td></tr><tr><td>Parent SKU</td><td></td><td></td><td>99901</td></tr><tr><td>Variant SKU</td><td></td><td></td><td>99901</td></tr><tr><td>Variant Description</td><td></td><td></td><td>BRAND 400G EXAMPLE DESCRIPTION 001</td></tr><tr><td>Retail Units</td><td></td><td></td><td>6</td></tr><tr><td>Consumer Unit EAN Barcode</td><td></td><td></td><td>5000000000000</td></tr><tr><td>On Promo</td><td></td><td></td><td>N</td></tr><tr><td>Company RSP</td><td></td><td></td><td>2.50</td></tr><tr><td>Stores Ranged</td><td></td><td></td><td>1089</td></tr><tr><td>Stores Scanned</td><td></td><td></td><td>956</td></tr><tr><td>Scanned Rate</td><td></td><td></td><td>87.79</td></tr><tr><td>Store Availability</td><td></td><td></td><td>98.31</td></tr><tr><td>Shrinkage Units</td><td></td><td></td><td>24</td></tr><tr><td>Shrinkage Value</td><td></td><td></td><td>46.5</td></tr><tr><td>Sales Turnover</td><td></td><td></td><td>9862.43</td></tr><tr><td>Sales Units</td><td></td><td></td><td>3776</td></tr><tr><td>Sales Cases</td><td></td><td></td><td>629</td></tr><tr><td>Forecast Cases</td><td></td><td></td><td>673</td></tr><tr><td>Retail Week</td><td></td><td></td><td>2022-16</td></tr><tr><td>Week Commencing</td><td></td><td></td><td>09-07-2022</td></tr><tr><td>Supplier Number</td><td></td><td></td><td>9999</td></tr><tr><td>Supplier Name</td><td></td><td></td><td>EXAMPLE SUPPLIER</td></tr><tr><td>Supplier Address</td><td></td><td></td><td>EXAMPLE BUILDING; EXAMPLE ROAD; MILTON KEYNES; MK9 1LH</td></tr></tbody></table>

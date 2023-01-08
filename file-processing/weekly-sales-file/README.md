@@ -1,6 +1,8 @@
-# Weekly Sales Report
+# Weekly Sales File
 
 ## General Report Overview
+
+### Source report: Weekly Sales Report
 
 The report consists of one table of columnar data with one row per SKU. There are 9 attribute columns followed by 12 metric columns. The table has a header row with descriptions of the columns.
 
@@ -36,15 +38,19 @@ If using a spreadsheet application the new columns will be inserted at V:Z or C2
 All values should be trimmed to remove surrounding white space before being written into the new columns
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Extracted header information in red, populated columns in orange</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Extracted header information in red, populated columns in orange</p></figcaption></figure>
 
 ### 3. Remove header rows
 
 Delete the top 4 rows of the file, so that the header of the data table is the first row in the file.
 
+{% hint style="info" %}
+If using a spreadsheet application the rows to be removed are 1:4 or R1:R4 (depending on reference style)
+{% endhint %}
+
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Rows to be removed in yellow</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Header rows removed</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Header rows removed</p></figcaption></figure>
 
 ### 4. Save the file
 
@@ -52,14 +58,15 @@ Save the file as CSV type with UTF-8 encoding.
 
 ## Output Attributes
 
-| Aspect        | Attribute                              |
-| ------------- | -------------------------------------- |
-| Columns       | 26                                     |
-| Rows          | 1 -> 500 (depending on number of SKUs) |
-| Header Row    | Yes                                    |
-| Data Protocol | File                                   |
-| File Type     | CSV                                    |
-| Encoding      | UTF-8                                  |
+| Aspect        | Attribute                                |
+| ------------- | ---------------------------------------- |
+| Columns       | 26                                       |
+| Rows          | 1 -> \~500 (depending on number of SKUs) |
+| Header Row    | Yes                                      |
+| Data Protocol | File                                     |
+| File Type     | CSV                                      |
+| Encoding      | UTF-8                                    |
+| Date Format   | dd-mm-yyyy                               |
 
 ## Test Regime
 
@@ -69,12 +76,12 @@ Save the file as CSV type with UTF-8 encoding.
 | File Size         |                         |
 | Number of columns | 26                      |
 | Number of Rows    | >1                      |
-|                   |                         |
+| Date Format       | dd-mm-yyyy              |
 
-## Output Column Definitions
+## Output File and Column Definitions
 
-{% content-ref url="weekly-sales-file-definitions.md" %}
-[weekly-sales-file-definitions.md](weekly-sales-file-definitions.md)
+{% content-ref url="weekly-sales-file-definition.md" %}
+[weekly-sales-file-definition.md](weekly-sales-file-definition.md)
 {% endcontent-ref %}
 
 ## Example Output File

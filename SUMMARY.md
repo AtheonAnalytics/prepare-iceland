@@ -4,8 +4,9 @@
 
 ## File Processing
 
-* [Weekly Sales Report](file-processing/weekly-sales-report/README.md)
-  * [Weekly Sales File Definitions](file-processing/weekly-sales-report/weekly-sales-file-definitions.md)
-  * [Example Output File](file-processing/weekly-sales-report/example-output-file.md)
-* [Weekly Stock Report](file-processing/weekly-stock-report/README.md)
-  * [Example Output File](file-processing/weekly-stock-report/example-output-file.md)
+* [Weekly Sales File](file-processing/weekly-sales-file/README.md)
+  * [Weekly Sales File Definition](file-processing/weekly-sales-file/weekly-sales-file-definition.md)
+  * [Example Output File](file-processing/weekly-sales-file/example-output-file.md)
+* [Weekly Estate Stock File](file-processing/weekly-estate-stock-file/README.md)
+  * [Weekly Estate Stock File Definition](file-processing/weekly-estate-stock-file/weekly-estate-stock-file-definition.md)
+  * [Example Output File](file-processing/weekly-estate-stock-file/example-output-file.md)
