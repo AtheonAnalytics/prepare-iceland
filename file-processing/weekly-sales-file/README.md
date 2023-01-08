@@ -56,7 +56,7 @@ If using a spreadsheet application the rows to be removed are 1:4 or R1:R4 (depe
 
 Save the file as CSV type with UTF-8 encoding.
 
-## Output Attributes
+## File Attributes
 
 | Aspect        | Attribute                                |
 | ------------- | ---------------------------------------- |
@@ -78,13 +78,13 @@ Save the file as CSV type with UTF-8 encoding.
 | Number of Rows    | >1                      |
 | Date Format       | dd-mm-yyyy              |
 
-## Output File and Column Definitions
+## File and Column Definitions
 
 {% content-ref url="weekly-sales-file-definition.md" %}
 [weekly-sales-file-definition.md](weekly-sales-file-definition.md)
 {% endcontent-ref %}
 
-## Example Output File
+## Example File
 
 {% content-ref url="example-file.md" %}
 [example-file.md](example-file.md)

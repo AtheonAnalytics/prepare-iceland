@@ -68,7 +68,7 @@ Delete the top 4 rows of the file, so that the header of the data table is the f
 
 Save the file as CSV type with UTF-8 encoding.
 
-## Output Attributes
+## File Attributes
 
 | Aspect        | Attribute                                |
 | ------------- | ---------------------------------------- |
@@ -90,13 +90,13 @@ Save the file as CSV type with UTF-8 encoding.
 | Number of Rows    | >1                      |
 | Date Format       | dd-mm-yyyy              |
 
-## Output File and Column Definitions
+## File and Column Definitions
 
 {% content-ref url="weekly-estate-stock-file-definition.md" %}
 [weekly-estate-stock-file-definition.md](weekly-estate-stock-file-definition.md)
 {% endcontent-ref %}
 
-## Example Output File
+## Example File
 
 {% content-ref url="example-file.md" %}
 [example-file.md](example-file.md)
