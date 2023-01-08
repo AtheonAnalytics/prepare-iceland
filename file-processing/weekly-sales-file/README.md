@@ -86,6 +86,6 @@ Save the file as CSV type with UTF-8 encoding.
 
 ## Example Output File
 
-{% content-ref url="example-output-file.md" %}
-[example-output-file.md](example-output-file.md)
+{% content-ref url="example-file.md" %}
+[example-file.md](example-file.md)
 {% endcontent-ref %}
