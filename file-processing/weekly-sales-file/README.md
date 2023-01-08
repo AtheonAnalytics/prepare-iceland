@@ -48,7 +48,7 @@ Delete the top 4 rows of the file, so that the header of the data table is the f
 If using a spreadsheet application the rows to be removed are 1:4 or R1:R4 (depending on reference style)
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Rows to be removed in yellow</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Rows to be removed in yellow</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Header rows removed</p></figcaption></figure>
 

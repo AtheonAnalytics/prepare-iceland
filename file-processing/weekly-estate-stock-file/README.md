@@ -2,7 +2,7 @@
 
 ## General Report Overview
 
-### Source reports: Weekly Stock Report
+### Source report: Weekly Stock Report
 
 The report consists of one table of columnar data with one row per SKU. There are 9 attribute columns followed by a variable number of metric columns, depending on the number of depots referenced. The table has a header row with descriptions of the columns.
 
@@ -24,7 +24,7 @@ There are 3 "On Hand Cases" columns following the depot specific columns that ar
 If using a spreadsheet application the columns to be removed begin at Q or R17 (depending on reference style)
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Columns to be removed in yellow</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Columns to be removed in yellow</p></figcaption></figure>
 
 ### 2. Add columns to data table
 
@@ -40,7 +40,7 @@ If using a spreadsheet application the columns to be removed begin at Q or R17 (
 If using a spreadsheet application the new columns will be inserted at U:Y or C21:C25 (depending on reference style)
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>5 new columns to be added in yellow</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (2).png" alt=""><figcaption><p>5 new columns to be added in yellow</p></figcaption></figure>
 
 ### 3. Extract data from header and populate new columns
 
@@ -60,7 +60,7 @@ All values should be trimmed to remove surrounding white space before being writ
 
 Delete the top 4 rows of the file, so that the header of the data table is the first row in the file.
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption><p>Rows to be removed in yellow</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p>Rows to be removed in yellow</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Header rows removed</p></figcaption></figure>
 
@@ -86,7 +86,7 @@ Save the file as CSV type with UTF-8 encoding.
 | ----------------- | ----------------------- |
 | File Type         | CSV with UTF-8 encoding |
 | File Size         |                         |
-| Number of columns | 26                      |
+| Number of columns | 25                      |
 | Number of Rows    | >1                      |
 | Date Format       | dd-mm-yyyy              |
 
